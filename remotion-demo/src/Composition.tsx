@@ -270,8 +270,8 @@ export const DemoVideo = () => {
           <CapturedPwa />
         </div>
       </div>
-      <Sequence name="Launch School UX Kit Demo" durationInFrames={3 * fps} premountFor={fps}>
-        <CardLayer title="Launch School UX Kit Demo" />
+      <Sequence name="Liftwyn Demo" durationInFrames={3 * fps} premountFor={fps}>
+        <CardLayer title="Liftwyn Demo" />
       </Sequence>
       <Sequence name="Show Settings Panel" from={105} durationInFrames={3 * fps} premountFor={fps}>
         <CardLayer title="Show Settings Panel" keys={["⌘", "⌃", ","]} circle={[1658, 0, 44, 44]} />

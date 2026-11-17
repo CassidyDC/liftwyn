@@ -7,7 +7,7 @@ import test from "node:test";
 import { sourceContext } from "../support/source-context.js";
 
 test("header watcher follows repeated atomic saves", async (t) => {
-  const directory = await mkdtemp(path.join(os.tmpdir(), "launch-school-ux-kit-header-"));
+  const directory = await mkdtemp(path.join(os.tmpdir(), "liftwyn-header-"));
   const headerPath = path.join(directory, "header.txt");
   await writeFile(headerPath, "@version 1\n");
   const changes = [];
@@ -52,7 +52,7 @@ test("header watcher follows repeated atomic saves", async (t) => {
 });
 
 test("watch build metadata includes license and third-party notice changes", async (t) => {
-  const directory = await mkdtemp(path.join(os.tmpdir(), "launch-school-ux-kit-notices-"));
+  const directory = await mkdtemp(path.join(os.tmpdir(), "liftwyn-notices-"));
   const sourceDirectory = path.join(directory, "src/userscript");
   await mkdir(sourceDirectory, { recursive: true });
   const headerPath = path.join(sourceDirectory, "header.txt");

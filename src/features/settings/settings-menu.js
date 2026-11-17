@@ -18,14 +18,14 @@ export function injectSettingsMenu(containerEl) {
   const createSettingsMenu = () => {
     const settingsMenuEl = document.createElement("div");
     settingsMenuEl.className = "settings-container";
-    settingsMenuEl.id = "ls-ux-settings-menu";
+    settingsMenuEl.id = "liftwyn-settings-menu";
     settingsMenuEl.setAttribute("role", "region");
-    settingsMenuEl.setAttribute("aria-labelledby", "ls-ux-settings-heading");
+    settingsMenuEl.setAttribute("aria-labelledby", "liftwyn-settings-heading");
     settingsMenuEl.setAttribute("aria-hidden", "true");
     settingsMenuEl.inert = true;
     const settingsMenuHeaderEl = document.createElement("h2");
     settingsMenuHeaderEl.className = "setting-container__title";
-    settingsMenuHeaderEl.id = "ls-ux-settings-heading";
+    settingsMenuHeaderEl.id = "liftwyn-settings-heading";
     settingsMenuHeaderEl.innerText = "Settings";
     settingsMenuEl.appendChild(settingsMenuHeaderEl);
     return settingsMenuEl;

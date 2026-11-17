@@ -16,7 +16,7 @@ run([
   "-loglevel",
   "warning",
   "-i",
-  `${media}ux-kit-demo.mp4`,
+  `${media}liftwyn-demo.mp4`,
   "-c:v",
   "libvpx-vp9",
   "-b:v",
@@ -32,7 +32,7 @@ run([
   "-cpu-used",
   "4",
   "-an",
-  `${media}ux-kit-demo.webm`,
+  `${media}liftwyn-demo.webm`,
 ]);
 console.info("Exporting the title-card poster...");
 run([
@@ -41,13 +41,13 @@ run([
   "-loglevel",
   "warning",
   "-i",
-  `${media}ux-kit-demo.mp4`,
+  `${media}liftwyn-demo.mp4`,
   "-ss",
   "1",
   "-frames:v",
   "1",
   "-update",
   "1",
-  `${media}ux-kit-demo-poster.png`,
+  `${media}liftwyn-demo-poster.png`,
 ]);
 console.info(`Demo deliverables saved in ${media}`);

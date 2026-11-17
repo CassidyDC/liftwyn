@@ -56,7 +56,7 @@ test("rejects missing, malformed, duplicate, and empty release sections", () => 
 });
 
 test("CLI blocks missing bumps and prepares an exact-commit release with safe retries", (t) => {
-  const directory = mkdtempSync(path.join(os.tmpdir(), "ls-ux-release-"));
+  const directory = mkdtempSync(path.join(os.tmpdir(), "liftwyn-release-"));
   t.after(() => rmSync(directory, { recursive: true, force: true }));
   const git = (...args) => execFileSync("git", args, { cwd: directory, encoding: "utf8" }).trim();
   git("init", "--quiet");

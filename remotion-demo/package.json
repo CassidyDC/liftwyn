@@ -1,7 +1,7 @@
 {
   "name": "remotion-demo",
   "version": "1.0.0",
-  "description": "Launch School UX Kit native PWA demo video",
+  "description": "Liftwyn native PWA demo video",
   "repository": {},
   "license": "UNLICENSED",
   "private": true,
@@ -29,7 +29,7 @@
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
-    "render": "remotion render LaunchSchoolDemo ../docs/media/demo/ux-kit-demo.mp4 --codec=h264 --crf=18 --concurrency=4 && node scripts/export-deliverables.mjs",
-    "poster": "remotion still LaunchSchoolDemo ../docs/media/demo/ux-kit-demo-poster.png --frame=30"
+    "render": "remotion render LiftwynDemo ../docs/media/demo/liftwyn-demo.mp4 --codec=h264 --crf=18 --concurrency=4 && node scripts/export-deliverables.mjs",
+    "poster": "remotion still LiftwynDemo ../docs/media/demo/liftwyn-demo-poster.png --frame=30"
   }
 }

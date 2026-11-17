@@ -2,9 +2,9 @@
 
 ## Project at a glance
 
-Launch School UX Kit is a browser userscript built with plain JavaScript modules and esbuild. The source entry point is `src/app/index.js`; it coordinates feature modules in `src/features/`, shared DOM and style helpers in `src/shared/`, and the stylesheet entry point at `src/styles/index.css`.
+Liftwyn is a browser userscript built with plain JavaScript modules and esbuild. The source entry point is `src/app/index.js`; it coordinates feature modules in `src/features/`, shared DOM and style helpers in `src/shared/`, and the stylesheet entry point at `src/styles/index.css`.
 
-The application waits for the page DOM, discovers Launch School controls, injects the kit's styles and UI, restores saved panel preferences, then registers page watchers and keyboard shortcuts. Feature code lives with the feature it owns. Cross-feature actions are passed through the application as callbacks; shared utilities do not depend on features.
+The application waits for the page DOM, discovers Launch School controls, injects Liftwyn's styles and UI, restores saved panel preferences, then registers page watchers and keyboard shortcuts. Feature code lives with the feature it owns. Cross-feature actions are passed through the application as callbacks; shared utilities do not depend on features.
 
 ## Development build and release build
 

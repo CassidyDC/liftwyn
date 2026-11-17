@@ -224,5 +224,5 @@ test("built userscript initializes against a sparse page and registers its UI", 
   assert.ok(document.querySelector(".site-header"));
   assert.ok(document.querySelector(".settings-container"));
   assert.ok(document.querySelector(".toast-container"));
-  assert.ok(document.getElementById("ls-ui-script-styles"));
+  assert.ok(document.getElementById("liftwyn-styles"));
 });

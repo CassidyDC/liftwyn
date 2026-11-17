@@ -25,7 +25,7 @@ function createSettingsToggleButton() {
   settingsToggleButtonEl.classList.add("site-header__button", "btn--toggle-settings", "has-dropdown");
   settingsToggleButtonEl.title = "Toggle Settings Visibility";
   settingsToggleButtonEl.setAttribute("aria-label", "Toggle Settings Visibility");
-  settingsToggleButtonEl.setAttribute("aria-controls", "ls-ux-settings-menu");
+  settingsToggleButtonEl.setAttribute("aria-controls", "liftwyn-settings-menu");
   settingsToggleButtonEl.setAttribute("aria-expanded", "false");
   settingsToggleButtonEl.appendChild(icons.headerIcons.settings());
 

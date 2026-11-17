@@ -1,4 +1,4 @@
-# Launch School UX Kit demo video
+# Liftwyn demo video
 
 A reproducible Remotion composition implementing [the demo prompt](../docs/media/demo/demo-video-prompt.md): 1920 × 1080, 30 fps, 88 seconds, silent.
 
@@ -11,7 +11,7 @@ npm run demo:install
 npm run demo:studio
 ```
 
-Open the local URL printed by Studio and select `LaunchSchoolDemo`. Keep Studio running while editing the composition.
+Open the local URL printed by Studio and select `LiftwynDemo`. Keep Studio running while editing the composition.
 
 The video dependencies have their own package and lockfile in this directory. They are separate from the userscript build dependencies.
 
@@ -26,11 +26,11 @@ npm run demo:render
 
 The first render downloads Remotion's Chrome Headless Shell if it is not cached. Rendering produces these files in `docs/media/demo/`:
 
-- `ux-kit-demo.mp4`: H.264, CRF 18, compatible with Safari and common video players.
-- `ux-kit-demo.webm`: VP9, CRF 26, used as an additional browser playback source.
-- `ux-kit-demo-poster.png`: the title card at one second.
+- `liftwyn-demo.mp4`: H.264, CRF 18, compatible with Safari and common video players.
+- `liftwyn-demo.webm`: VP9, CRF 26, used as an additional browser playback source.
+- `liftwyn-demo-poster.png`: the title card at one second.
 
-The [demo player](../docs/media/demo/ux-kit-demo.html) includes both video formats.
+The [demo player](../docs/media/demo/liftwyn-demo.html) includes both video formats.
 
 ## Source and timing
 
@@ -45,7 +45,7 @@ The [demo player](../docs/media/demo/ux-kit-demo.html) includes both video forma
 
 ## Capture provenance
 
-The checked-in assets were captured from the installed **Launch School Safari PWA**, on the Python introduction chapter, with this repository's UX Kit active. They include the actual LSBot answer and actual Scratchpad execution result. No browser chrome or recreated application UI is used.
+The checked-in assets were captured from the installed **Launch School Safari PWA**, on the Python introduction chapter, with Liftwyn active. They include the actual LSBot answer and actual Scratchpad execution result. No browser chrome or recreated application UI is used.
 
 Native screen recording was disabled in the capture session. This video therefore animates native screenshots, with short dissolves between UI states, real screenshots of each typed character, and continuous scrolling built from overlapping captures. It is not a continuous screen recording. The macOS title bar, window shadow, cards, circles, and highlights are presentation layers added by Remotion.
 
@@ -61,9 +61,9 @@ To regenerate the WebP assets and scrolling strips:
 
 ```sh
 cd remotion-demo
-python3 -m venv /tmp/ux-kit-captures
-/tmp/ux-kit-captures/bin/pip install -r scripts/requirements-captures.txt
-/tmp/ux-kit-captures/bin/python scripts/prepare-captures.py ../.capture-source
+python3 -m venv /tmp/liftwyn-captures
+/tmp/liftwyn-captures/bin/pip install -r scripts/requirements-captures.txt
+/tmp/liftwyn-captures/bin/python scripts/prepare-captures.py ../.capture-source
 npx prettier --write src/scroll-captures.json
 ```
 

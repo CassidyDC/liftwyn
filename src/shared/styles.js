@@ -12,7 +12,7 @@ import stylesToInject from "virtual-esbuild:styles";
  * @returns {void}
  */
 export function injectStyles() {
-  const existingStyles = document.getElementById("ls-ui-script-styles");
+  const existingStyles = document.getElementById("liftwyn-styles");
   if (existingStyles) return;
 
   /**
@@ -22,7 +22,7 @@ export function injectStyles() {
    */
   const createStyleEl = () => {
     const style = document.createElement("style");
-    style.setAttribute("id", "ls-ui-script-styles");
+    style.setAttribute("id", "liftwyn-styles");
     style.textContent = stylesToInject;
     return style;
   };

@@ -83,7 +83,7 @@ function watchHeaderBeforeCache() {
       },
     );
 
-    document.querySelectorAll("#ls-ui-script-styles, .toast-container, .tab-tooltip").forEach(
+    document.querySelectorAll("#liftwyn-styles, .toast-container, .tab-tooltip").forEach(
       /**
        * Removes a transient injected element before native page caching.
        *
@@ -236,7 +236,7 @@ function refreshNativeElement(selector, containerEl, { keepAcrossPages = false, 
 
   if (!nextElement) return null;
 
-  const marker = document.createComment("Launch School UX Kit header source");
+  const marker = document.createComment("Liftwyn header source");
   nextElement.before(marker);
   headerElementSources.set(nextElement, { marker, pageUrl });
   if (onMove) onMove(nextElement);

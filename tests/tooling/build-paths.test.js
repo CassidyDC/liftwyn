@@ -27,7 +27,7 @@ function build(directory, args = []) {
 }
 
 test("build outputs use flat paths and failed builds preserve the release", async (t) => {
-  const directory = await mkdtemp(path.join(os.tmpdir(), "ls-ux-build-paths-"));
+  const directory = await mkdtemp(path.join(os.tmpdir(), "liftwyn-build-paths-"));
   t.after(() => rm(directory, { recursive: true, force: true }));
   for (const file of ["src", "LICENSE", "THIRD-PARTY-NOTICES.txt"]) {
     await cp(path.join(repository, file), path.join(directory, file), { recursive: true });

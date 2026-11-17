@@ -36,7 +36,7 @@ Before starting the video:
 
 ## Video Steps
 
-1. Show the full UI with a card containing the title "Launch School UX Kit Demo". The card will show for 3 seconds (0.5s fade in, 2 second show, 0.5s fade out).
+1. Show the full UI with a card containing the title "Liftwyn Demo". The card will show for 3 seconds (0.5s fade in, 2 second show, 0.5s fade out).
 2. Open the settings panel (cmd+ctrl+,) with the title "Show Settings Panel" and the shortcut below it. At the same time the card fades in, outline circle the header settings button. When the card fades out, remove the outline circle.
 3. Toggle "Hide sidebar's section headers" on. At the same time the card fades in, outline circle the toggle button. When the card fades out, remove the outline circle. Also, at the same time the card fades in, highlight the section titles. When the headers are turned off, hide the highlight.
 4. Toggle "Hide sidebar's section headers" off. At the same time the card fades in, outline circle the toggle button. When the card fades out, remove the outline circle. Also, at the same time the card fades in, highlight the section titles. When the card fades out, hide the highlight.

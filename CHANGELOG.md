@@ -1,4 +1,4 @@
-# Changelog for Launch School UX Kit
+# Changelog for Liftwyn
 
 All notable changes to this project will be documented in this file.
 
@@ -62,7 +62,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed LSBot submission focus tracking when its prompt is already focused during initialization.
 - Prevented review shortcuts from submitting disabled or detached controls or targeting another page after navigation.
 - Prevented shortcuts from interfering with IME composition and AltGr text entry.
-- Prevented registered UX Kit shortcuts from also triggering the page's native keyboard handlers.
+- Prevented registered Liftwyn shortcuts from also triggering the page's native keyboard handlers.
 - Made hidden header, settings, and tabs-panel controls inaccessible to keyboard and assistive navigation, and restored focus when Settings closes.
 - Fixed expired toasts remaining in the DOM when transitions are absent, canceled, or do not emit completion events.
 - Fixed custom button icons disappearing when page content resets, stale unread badges after sidebar replacement, and question-box controls added after initialization not handling submissions.
@@ -131,7 +131,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `enterOnly` shortcut for chat prompt submissions.
 - Added a Lucide SVG icon to replace the search icon on the forum page.
 - Added an SVG loader to the esbuild script so it can be inline CSS SVG assets.
-- Added pagination button styles to match the LS UX Kit theme.
+- Added pagination button styles to match the Liftwyn theme.
 
 ### Changed
 
@@ -188,7 +188,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Changed the project name from "Launch School UI Script" to "Launch School UX Kit".
+- Renamed the project to "Liftwyn".
 - Fixed the LSBot content colors for consistency between all elements.
 - Fixed the default `p` and `li` styles.
 - Fixed the forum search input icon by giving its padding back that was overridden by the default input padding.

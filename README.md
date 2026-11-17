@@ -1,14 +1,14 @@
-# Launch School UX Kit README
+# Liftwyn README
 
 <!-- markdownlint-disable MD033 -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/design/branding/logo/launch-school-ux-kit-logo-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/design/branding/logo/launch-school-ux-kit-logo.svg">
-  <img alt="Launch School UX Kit logo" src="docs/design/branding/logo/launch-school-ux-kit-logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/design/branding/logo/liftwyn-logo-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="docs/design/branding/logo/liftwyn-logo.svg">
+  <img alt="Liftwyn logo" src="docs/design/branding/logo/liftwyn-logo.svg">
 </picture>
 <!-- markdownlint-enable MD033 -->
 
-An unofficial UX kit that modifies the LaunchSchool.com UI with a minimal design and added shortcuts for productivity (shortcuts that toggle the header, menus, sidebar, tabs, and more).
+Liftwyn is an unofficial userscript that modifies the LaunchSchool.com UI with a minimal design and added shortcuts for productivity (shortcuts that toggle the header, menus, sidebar, tabs, and more).
 
 | Index                                   |
 | --------------------------------------- |
@@ -112,9 +112,9 @@ Keys displayed together, such as `⌘⌃C`, are pressed together. Numbered tab s
 ## Notes
 
 - Shortcuts, the current-page shortcut list, and button tooltips automatically use macOS or Windows keys for your platform.
-- This kit only works for desktop views. The UI will break on screen sizes narrower than 1025px wide.
+- Liftwyn only works for desktop views. The UI will break on screen sizes narrower than 1025px wide.
 - You can toggle the userscript off at anytime and reload the page to get the original UX back.
-- This kit modifies the existing DOM of launchschool.com. If the launchschool.com DOM changes in the future, this kit may cease to function. If that happens, please [report the issue](https://github.com/jacobcassidy/launch-school-ux-kit/issues).
+- Liftwyn modifies the existing DOM of launchschool.com. If the launchschool.com DOM changes in the future, Liftwyn may cease to function. If that happens, please [report the issue](https://github.com/jacobcassidy/liftwyn/issues).
 
 ## Documentation
 
@@ -122,4 +122,4 @@ See the [Changelog](CHANGELOG.md), [Contributing](CONTRIBUTING.md) for developme
 
 ## Issues?
 
-If you come across any issues, please feel free to [report them here](https://github.com/jacobcassidy/launch-school-ux-kit/issues). You are also welcome to [create a pull request](https://github.com/jacobcassidy/launch-school-ux-kit/pulls). If your PR code is AI generated, please fully review the code and mention you have done so, otherwise it may be automatically closed without being reviewed/merged.
+If you come across any issues, please feel free to [report them here](https://github.com/jacobcassidy/liftwyn/issues). You are also welcome to [create a pull request](https://github.com/jacobcassidy/liftwyn/pulls). If your PR code is AI generated, please fully review the code and mention you have done so, otherwise it may be automatically closed without being reviewed/merged.

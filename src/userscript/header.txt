@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Launch School UX Kit
+// @name         Liftwyn
 // @namespace    https://tampermonkey.net/
 // @version      2026-10-15
-// @description  A UX kit that enhances the LaunchSchool.com pages with an refined UI and convenient keyboard shortcuts.
+// @description  Liftwyn enhances LaunchSchool.com pages with a refined UI and convenient keyboard shortcuts.
 // @author       Jacob Cassidy
 // @match        https://launchschool.com/**
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=launchschool.com
